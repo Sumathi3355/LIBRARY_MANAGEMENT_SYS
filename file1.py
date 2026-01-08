@@ -6,7 +6,7 @@ def add_book(name):
 
 def view_books():
     if not books:
-        print("No books available")
+        print("Books are not available")
     else:
         for b in books:
             print(b)
@@ -14,4 +14,4 @@ def view_books():
 add_book("Python Basics")
 add_book("Data Structures")
 
-view_books()
+
