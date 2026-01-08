@@ -8,7 +8,7 @@ if username == "admin":
         print("Login successful")
         print("Welcome to Library System")
     else:
-        print("Wrong password")
+        print("Incorrect password")
 else:
     print("Invalid user")
 
