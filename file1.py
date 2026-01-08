@@ -11,7 +11,7 @@ def view_books():
         for b in books:
             print(b)
 
-add_book("Python Basics")
+add_book("Python Basics for tech students")
 add_book("Data Structures")
 
 
