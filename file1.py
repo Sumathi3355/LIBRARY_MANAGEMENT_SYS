@@ -1,17 +1,15 @@
-books = []
+print("Library Management System Login")
 
-def add_book(name):
-    books.append(name)
-    print("Book added")
+username = input("Enter username: ")
+password = input("Enter password: ")
 
-def view_books():
-    if not books:
-        print("Books are not available")
+if username == "admin":
+    if password == "1234":
+        print("Login successful")
+        print("Welcome to Library System")
     else:
-        for b in books:
-            print(b)
+        print("Invalid password")
+else:
+    print("Invalid user")
 
-add_book("Python Basics for tech students")
-add_book("Data Structures")
-
-
+print("Program ended")
