@@ -12,4 +12,4 @@ if username == "admin":
 else:
     print("Invalid user")
 
-print("Program ended")
+print("Program started")
