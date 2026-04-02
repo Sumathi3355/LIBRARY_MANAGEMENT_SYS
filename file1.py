@@ -3,7 +3,7 @@ print("Library Management System Login")
 username = input("Enter username: ")
 password = input("Enter password: ")
 
-if username == "admin":
+if username == "administrator":
     if password == "1234":
         print("Login successful")
         print("Welcome to Library System")
